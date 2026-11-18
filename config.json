@@ -1,0 +1,24 @@
+{
+  "_comment": "Starter configuration template — values and structure will likely change during development.",
+  "app": {
+    "title": "Smart Financial Expense Tracker",
+    "version": "1.0.0"
+  },
+  "paths": {
+    "data_dir": "data",
+    "output_dir": "outputs",
+    "log_file": "logs/app.log"
+  },
+  "schema": {
+    "required_columns": ["date", "category", "amount"]
+  },
+  "visualization": {
+    "color_palette": "viridis",
+    "primary_color": "#2E86AB",
+    "figure_dpi": 100
+  },
+  "ml": {
+    "random_seed": 42,
+    "batch_size": 32
+  }
+}
